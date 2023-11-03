@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clinic Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img class="nav-img"
+            src="clinic-img.jpg"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about-us" class="nav-link">ABOUT</a>
+          <a href="#SERVICES" class="nav-link">OUR SERVICE</a>
+          <a href="#testimonials" class="nav-link">TESTIMONIALS</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="doctor.jpg" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Your Health Is, Our Mission.</h1>
+          <h2>
+            After being traumatized when a patient violently attacks her a
+            psychatrist(vinesa shaw) tries to repair her life by new patient 
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+           Get Appointment
+          </button>
+        </div>
+      </section>
+      <section id="about-us" class="sec-padding">
+        
+       <div class="about-us">
+       
+        <div class="about-sec">
+          <div class="about-text">
+          <h3 class="">About Our Clinic</h3>
+          <p class="about-p">
+            Medicine the science and practice of caring for a patient 
+            managing the diagnosis, prognosis, prevention, treatment,
+            palliation of their injury or disease and promoting their health.
+          </p>
+          <a href="">Read More</a>
+          </div>
+          <div class='about-img'>
+            <img src="clinic.jpg" alt="Clinic" />
+          </div>
+         
+        </div>
+       </div>
+      </section>
+      <h3 class="heading">Our Services</h3>
+      <section id="SERVICES" class="sec-padding">
+        
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="consult.jpg" alt="Consultation" />
+            <h4>Consultation</h4>
+            <a href="">Find Services</a>
+          </div>
+          <div class="tile">
+            <img
+              src="diagnosis.jpg"
+              alt="diagnosis"
+            />
+            <h4>Diagnosis</h4>
+            <a href="">Find Services</a>
+          </div>
+          <div class="tile">
+            <img src="treatment.jpg" alt="Treatment" />
+            <h4>Treatment</h4>
+            <a href="">Find Services</a>
+          </div>
+          <div class="tile">
+            <img src="checkup.jpg" alt="Annual checkups" />
+            <h4>Annual checkups</h4>
+            <a href="">Find Services</a>
+          </div>
+          <div class="tile">
+            <img src="care.jpg" alt=" Primary Care" />
+            <h4> Primary Care</h4>
+            <a href="">Find Services</a>
+          </div>
+          <div class="tile">
+            <img src="addiction.jpg" alt="Treatment of Addiction" />
+            <h4>Treatment of Addiction</h4>
+            <a href="">Find Services</a>
+          </div>
+        </div>
+      </section>
+      <h3 class="heading">Patient Testimonials</h3>
+      <section id="testimonials" class="sec-padding">
+      
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            
+            <p>Medical science covers many subjects 
+              which try to explain how the human body
+               works repairs delay more simple </p>
+               <h4>Teddy Desta</h4>
+          </div>
+          <div class="tile">
+            
+           
+            <p>But evidence suggest that regular
+              activity or exercise is unlikely to cause actual
+               knee damage.learn how to keep active and avoid knee pain</p>
+               <h4>John Feleke</h4>
+          </div>
+          <div class="tile">
+            <p>supply chain slowdowns and a need for more 
+              trained technicians fuel lengthy delay for event simple repairs.
+            </p>
+            <h4>John Doe</h4>
+          </div>
+         
+        </div>
+      </section>
+   
+     
+      <h3 class="heading">CONTACT</h3>
+      <section class="sec-padding" id="contact">
+     
+        <div class="sec-content-div flexible">
+          
+          <h6>Please fill out the contact form below and we get back to you as soon as possible</h6>
+          <form
+            id="form"
+            action=""
+            method="POST"
+          >
+          <input
+          type="name"
+          name="name"
+          id="name"
+          placeholder="Name "
+          required
+        />
+            <input
+              type="phone"
+              name="phone"
+              id="phone"
+              placeholder="phone"
+              required
+            />
+            <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Address"
+            required
+          />
+
+            <input type="submit" class="btn" id="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Tewodros Desta</a>
+    </footer>
+  </body>
+</html>
