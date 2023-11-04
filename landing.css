@@ -32,7 +32,7 @@ body {
   }
 }
 .header-content-div {
-  max-width: 95rem;
+
   width: auto;
   margin: 0 auto;
   height: 50px;
@@ -40,6 +40,8 @@ body {
 @media (max-width: 991px) {
   .header-content-div {
     max-width: 75rem;
+    padding-bottom: 20px;
+    width: 100%;
   }
 }
 #header-img {
@@ -117,6 +119,8 @@ nav {
   .home-sec {
     flex-flow: column wrap;
     max-width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
 .about-us{
@@ -233,6 +237,8 @@ nav {
   text-justify: inter-word;
  
 }
+
+
 .about-text{
   margin-right: 2rem;
 }
@@ -426,7 +432,8 @@ input[type="submit"] {
   }
   #contact input[type="submit"],
   #contact input[type="email"] {
-    margin: 1rem 1rem 0 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+   
   }
 }
 footer {
